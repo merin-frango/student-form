@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="mainContainer">
+        <h2 class="title">Student Registration Form</h2>
+
+        <div>
+            <table id="inPut">
+                <tr>
+                    <td>
+                        <h5>Name :</h5>
+                    </td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Age :</h5>
+                    </td>
+                    <td><input type="text" id="age"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Gender :</h5>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male"> Male
+                        <input type="radio" name="gender" id="female" value="female"> Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Course :</h5>
+                    </td>
+                    <td>
+                        <select id="course">
+                            <option value="" disabled selected hidden>Select a course</option>
+                            <option>JavaScritp</option>
+                            <option>Python</option>
+                            <option>Css</option>
+                            <option>HTML</option>
+                        </select>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <h5>Email :</h5>
+                    </td>
+                    <td>
+                        <input type="email" id="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button style="width: 100%;" id="saveBtn">Save</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <table id="outPut">
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+            <td>Course</td>
+            <td>Email</td>
+            <td>Action</td>
+        </tr>
+    </table>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

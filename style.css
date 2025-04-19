@@ -1,0 +1,87 @@
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    border: solid black 2px;
+    padding: 10px;
+    width: fit-content;
+    
+}
+
+.title {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#name {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#name:focus {
+    outline: none;
+}
+
+#age {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#age:focus {
+    outline: none;
+}
+
+#course {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#course:focus {
+    outline: none;
+}
+
+#email {
+    border: none;
+    border-bottom: solid gray 1px;
+    width: 300px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#saveBtn {
+    background-color: aquamarine;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#outPut{
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#outPut td{
+    border: 1px solid black;
+}
+
+#outPut tr{
+    border: 1px solid black;
+}
